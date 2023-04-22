@@ -4,16 +4,14 @@ using namespace std;
 
 int main()
 {
-    int A, B;
+    int A, B; // Declaração de Variavel Inteira
     int X;
 
-    cin>>A>>B;
+    cin>>A>>B; // Scan Variavel inteira / nao pode colocar tipos de variaveis diferentes no mesmo cin
 
-    X = A + B;
+    X = A + B; // Colocando um valor em uma variavel
 
     cout<<"X = "<<X<<endl;
-
-
 
     return 0;
 }
